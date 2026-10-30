@@ -57,7 +57,7 @@ thesis/
 Install [uv](https://docs.astral.sh/uv/getting-started/installation/), then clone the repository and install the project dependencies:
 
 ```bash
-git clone 
+git clone https://github.com/jumulv/Estimating-Insulin-Glucose-Dynamics.git
 cd thesis
 uv sync
 ```
