@@ -1,0 +1,33 @@
+[project]
+name = "thesis"
+version = "0.1.0"
+description = "Source code for my thesis in Estimating Nonlinear Insulin-Glucose Dynamics in Critically-ill Patients."
+readme = "README.md"
+authors = [
+    { name = "June Mulvihill", email = "contact@mulv.mozmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "scienceplots>=2.2.2",
+    "scipy>=1.18.1",
+    "seaborn>=0.13.2",
+]
+
+[tool.pyrefly]
+project-includes = [
+    "**/*.py*",
+    "**/*.ipynb",
+]
+search-path = ["src/thesis"]
+
+[build-system]
+requires = ["uv_build>=0.12.16,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pyrefly>=1.3.2",
+    "ruff>=0.16.9",
+]
