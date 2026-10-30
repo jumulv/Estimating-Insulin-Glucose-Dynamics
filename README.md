@@ -8,6 +8,7 @@ methods.
 
 ## Project Layout
 
+```
 thesis/
 ├── notebooks/
 │   ├── 00_Patient_Cohort.ipynb
@@ -49,7 +50,7 @@ thesis/
 ├── pyproject.toml
 ├── README.md
 └── uv.lock
-
+```
 
 ## Setup
 
